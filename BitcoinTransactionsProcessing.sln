@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitcoinBlocksDownloader", "BitcoinBlocksDownloader\BitcoinBlocksDownloader.csproj", "{F343C4AB-F300-45CD-996E-16A1E5E38BAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBRepository", "DBRepository\DBRepository.csproj", "{45C4FDCD-7D2C-4BB3-9846-E07E2D1A9099}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessingContracts", "ProcessingContracts\ProcessingContracts.csproj", "{3EE6482C-D7AF-4AD8-923C-EFB3B645655E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitcoinProcessing", "BitcoinProcessing\BitcoinProcessing.csproj", "{ACE72BA4-9597-416C-9C53-7D153C8CB50C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLogger", "ConsoleLogger\ConsoleLogger.csproj", "{4D5FC17E-4197-4700-A185-07F3BE9F0097}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DatabaseProject", "DatabaseProject\DatabaseProject.sqlproj", "{A0D74917-24A5-454A-9AB1-F5359E45A691}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F343C4AB-F300-45CD-996E-16A1E5E38BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F343C4AB-F300-45CD-996E-16A1E5E38BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F343C4AB-F300-45CD-996E-16A1E5E38BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F343C4AB-F300-45CD-996E-16A1E5E38BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45C4FDCD-7D2C-4BB3-9846-E07E2D1A9099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C4FDCD-7D2C-4BB3-9846-E07E2D1A9099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C4FDCD-7D2C-4BB3-9846-E07E2D1A9099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C4FDCD-7D2C-4BB3-9846-E07E2D1A9099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE6482C-D7AF-4AD8-923C-EFB3B645655E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE6482C-D7AF-4AD8-923C-EFB3B645655E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE6482C-D7AF-4AD8-923C-EFB3B645655E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE6482C-D7AF-4AD8-923C-EFB3B645655E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE72BA4-9597-416C-9C53-7D153C8CB50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE72BA4-9597-416C-9C53-7D153C8CB50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE72BA4-9597-416C-9C53-7D153C8CB50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE72BA4-9597-416C-9C53-7D153C8CB50C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D5FC17E-4197-4700-A185-07F3BE9F0097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5FC17E-4197-4700-A185-07F3BE9F0097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5FC17E-4197-4700-A185-07F3BE9F0097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5FC17E-4197-4700-A185-07F3BE9F0097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D74917-24A5-454A-9AB1-F5359E45A691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D74917-24A5-454A-9AB1-F5359E45A691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D74917-24A5-454A-9AB1-F5359E45A691}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A0D74917-24A5-454A-9AB1-F5359E45A691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D74917-24A5-454A-9AB1-F5359E45A691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D74917-24A5-454A-9AB1-F5359E45A691}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F9A30E4-54C7-48F2-ACC3-79F0D24CDA31}
+	EndGlobalSection
+EndGlobal
