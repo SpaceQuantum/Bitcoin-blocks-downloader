@@ -1,4 +1,4 @@
-# Bitcoin-blocks-downloader
+# Bitcoin blocks downloader
 Downloading bitcoin transactions from blockexplorer.com/api
 
 # Setup and run
